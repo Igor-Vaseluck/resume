@@ -1,0 +1,117 @@
+body{
+    background-color: #bebebe;
+    justify-content: center;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    justify-content: center;
+    margin-top: 30px;
+}
+.title{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+@media (max-width: 700px){
+    .title{
+        display: block;
+        text-align: center;
+    }
+    .hobbi{
+        text-align: center;
+    }
+}
+.description{
+    margin-left: 10%;
+}
+.photo{
+    text-align: center;
+}
+.my-photo{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:blue;
+}
+a:visited{
+    color: gray;
+}
+
+.hobbi{
+    background-color: #88ac84;padding: 15px;
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+.experience{
+    padding: 15px 20px;
+}
+table{
+    width: 80%;
+}
+table td:nth-child(2), 
+table td:nth-child(3){
+    color: gray;
+}
+.group{
+    margin-left: 20px;
+}
+.group label{
+    display: block;
+    font-size: 15px;
+}
+.group input,
+.group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.nameEmail{
+    display: flex;
+    margin-bottom: 20px;
+}
+.nameEmail > .group{
+    width: 50%;
+    margin-right: 20px;
+}
+.nameEmail > .group:last-child{
+    margin-right: 0;
+}
+.btn{
+    background:dimgrey;
+    padding: 15px 20px;
+    margin-left: 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.fixed{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 100px;
+    right: 20px;
+    border-radius:50%;
+}
